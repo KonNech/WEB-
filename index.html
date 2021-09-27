@@ -2,6 +2,67 @@
 <html lang="en" dir="ltr">
   <head>
     <title>Web1</title>
+<!--
+
+-->
+    <style>
+      body
+      {
+        background-image: url("https://oir.mobi/uploads/posts/2021-03/1616530369_22-p-chisto-chernii-fon-25.jpg");
+      }
+      h1
+      {
+        color: #FFFFFF;
+      }
+      h2
+      {
+        color: #FFFFFF;
+      }
+      ol
+      {
+        color: #FFFFFF;
+      }
+      label
+      {
+        color: #FFFFFF;
+      }
+      table
+      {
+        color: #FFFFFF;
+      }
+      aside
+      {
+        color: #FFFFFF;
+      }
+      #main-aside-wrapper
+      {
+        flex-direction: row;
+        display: flex;
+      }
+      #main-aside-wrapper main,#main-aside-wrapper aside
+      {
+        background-color: #800000;
+        margin: 10px;
+        padding: 10px;
+      }
+      #main-aside-wrapper
+      {
+        flex: 1;
+        order: 1;
+      }
+      #main-aside-wrapper
+      {
+        flex: 3;
+        order: 2;
+      }
+      @media screen and (min-width: 800px)
+      {
+        #main-aside-wrapper
+        {
+          flex-direction: row;
+        }
+      }
+    </style>
     <meta charset="utf-8">
     <meta name="keywords" content="s0163562">
     <meta name="description" content="Задание 1 по web">
@@ -9,13 +70,32 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
   </head>
   <body style="margin:0">
-      <div style="width:100%; background-color:#696969;padding:10px; height:120px;">
+    <div id ="#main-aside-wrapper">
+    <main>
+      <div style="width:100%;background-color:#800000;padding:10px;height:120px;">
           <img style="float:left; margin:10px; width:70px; height:70px;" src="https://lh3.googleusercontent.com/ogw/ADea4I5eTjRJH1h9PYf8WlWWpvysUr2QxmyhnEVxMnYg=s83-c-mo" alt="boundbydarknes">
-          <div style="background-color:#696969; padding:10px;"><big> <big>Задания по Web-интерфейсу</big></div>
+          <div style="background-color:#800000; padding:10px;"><big style="color: #FFFFFF">Задания по Web-интерфейсу</big></div>
       </div>
-      <div style="max-width:800px; background-color:#C0C0C0; margin: 0 auto; margin-top:20px; padding:10px;">
+      </main>
+      <aside>
+        Для чего-то
+      </aside>
+      </div>
+    <!--
+
+    -->
+      <div style="max-width:800px; background-color:#000000; margin: 0 auto; margin-top:20px; padding:10px">
+
+        <div class="toc">
+          <h1>Меню</h1>
+          <ul>
+            <li><a href="#head1" title="Нумерованный список гиперссылок">Задание 1</a></li>
+            <li><a href="#z2">Задание 2</a></li>
+          </ul>
+        </div>
+
         <h1>Задание 1</h1>
-        <h2>Нумерованный список гиперссылок</h2>
+        <h2></a>Нумерованный список гиперссылок</h2>
         <ol>
         <li><a href="http://example.com">Абсолютная гиперссылка на главную страницу сайта example.com</a></li>
         <li><a href="https://example.com">Абсолютная гиперссылка на главную страницу сайта example.com в протоколе https</a></li>
@@ -125,7 +205,7 @@
           <input type="submit"
           value="Отправить"/>
         </form>
-        <h1>Задание 2</h1>
+        <h1 id="z2">Задание 2</h1>
         <h2>Таблица</h2>
         <table>
           <tbody>
@@ -174,5 +254,8 @@
           </tbody>
         </table>
       </div>
+
+
+
   </body>
 </html>
