@@ -1,6 +1,10 @@
- body
+body
       {
-        background-image: url("https://oir.mobi/uploads/posts/2021-03/1616530369_22-p-chisto-chernii-fon-25.jpg");
+        background-image: url("https://klike.net/uploads/posts/2019-06/1561182942_2.jpg");
+      }   
+      nav
+      {
+          color: black;
       }
       .one {
         text-align: center;
@@ -64,4 +68,3 @@
           flex-direction: row;
         }
       }
- 
